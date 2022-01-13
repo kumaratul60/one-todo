@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app_input > input {
+  caret-color: red;
+  border-radius: 10px;
+  /* border: none; */
+  outline: none;
+  width: 15rem;
+  height: 1.5rem;
+}
+.app_input > input:focus {
+  background-color: yellow;
+}
+.app_input > input:hover {
+  background-color: thistle;
+  color: blue;
+}
